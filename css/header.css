@@ -1,0 +1,63 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    background: var(--whiteColor);
+}
+.header-top {
+    background-color: var(--blackColor);
+    text-align: center;
+    padding: 10px 0;
+}
+.header-top__info {
+    color: var(--whiteColor);
+    font-family: var(--fontManrope);
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+    border-bottom: 1px solid rgba(144, 135, 135, 0.344);
+}
+.header-bottom__menu {
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+}
+.header-bottom__menu-burger {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.header-bottom__menu-search {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.header-bottom__logo {
+    margin-left: 30px;
+}
+.header-bottom__logo-img {
+    width: 250px;
+    height: 110px;
+}
+.header-bottom__icons {
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+}
+.header-bottom__icons-link {}
+.header-bottom__icon-love {
+    width: 30px;
+    height: 30px;
+}
+.header-bottom__icon-user {
+    width: 30px;
+    height: 30px;
+}
+.header-bottom__icon-bag {
+    width: 30px;
+    height: 30px;
+}
