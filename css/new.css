@@ -15,6 +15,7 @@
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .new__item:hover {
     .new__item-img{
@@ -23,6 +24,18 @@
     .new__item-button{
         display: block;
     }
+}
+.new__item-icon{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+}
+.new__item-icon--bg{
+    background-color: var(--whiteColor);
+    border-radius: 50%;
+    padding: 5px;
 }
 .new__item-image {
     margin-bottom: 10px;
