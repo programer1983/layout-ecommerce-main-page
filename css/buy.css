@@ -34,9 +34,6 @@
     height: 500px;
     transition: all .5s ease;
 }
-/* .buy__item-img:hover{
-   transform: scale(1.1);
-} */
 .buy__item-bloctitle{
     position: absolute;
     left: 20px;
