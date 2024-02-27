@@ -1,6 +1,7 @@
 @import "./reset.css";
 @import "./header.css";
 @import "./top.css";
+@import "./buy.css";
 
 
 :root{
@@ -9,6 +10,7 @@
     --whiteColor: #fff;
     --fontBold: 700;
     --fontManrope: "Manrope", sans-serif;
+    --playfairDisplay: "Playfair Display", sans-serif;
 }
 
 body{
