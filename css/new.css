@@ -45,6 +45,7 @@
 .new__item-img {
     width: 300px;
     height: 470px;
+    object-fit: cover;
     transition: all .5s ease;
 }
 .new__item-text {

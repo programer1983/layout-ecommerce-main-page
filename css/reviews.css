@@ -1,0 +1,74 @@
+.reviews {
+    margin-top: 80px;
+    overflow-y: hidden;
+}
+.reviews__title {
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: var(--playfairDisplay);
+    text-align: center;
+}
+.reviews__title span{
+    font-style: italic;
+}
+.reviews__items {
+    display: flex;
+    column-gap: 30px;
+}
+.reviews__item {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.reviews__item-info {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    border: 1px solid rgba(224, 214, 214, 0.665);
+    padding: 20px 0 30px 20px;
+    margin-bottom: 30px;
+}
+.reviews__item-image {
+    width: 100px;
+    height: 150px;
+}
+.reviews__item-text {
+    font-size: 16px;
+    font-weight: 400;
+    width: 250px;
+    line-height: 1.4;
+}
+.reviews__item-data {
+    display: flex;
+    column-gap: 200px;
+    align-items: center;
+}
+.reviews__item-rating {
+    width: 80px;
+    height: 15px;
+}
+.reviews__item-instagram {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    transform: translateY(-30px);
+}
+.reviews__item-icon {
+    width: 17px;
+    height: 17px;
+}
+.reviews__item-nikname {
+    font-size: 15px;
+    color: rgb(198, 186, 186);
+    font-weight: 400;
+    line-height: 1.6;
+    padding-top: 20px;
+}
+.reviews__item-nikname span{
+    margin-left: 30px;
+}
+.reviews__item-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}

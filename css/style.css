@@ -6,6 +6,8 @@
 @import "./sale.css";
 @import "./popular.css";
 @import "./post.css";
+@import "./reviews.css";
+@import "./footer.css";
 
 
 :root{
@@ -26,6 +28,7 @@ body{
 }
 
 .wrapper{
+    display: flex;
     flex-direction: column;
 }
 
