@@ -14,6 +14,9 @@
     color: var( --blackColor);
     font-size: 18px;
 }
+.top-list__link:hover {
+    text-decoration: underline;
+}
 .top-slider {}
 .top-slider img{
     width: 1300px;

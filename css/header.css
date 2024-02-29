@@ -49,15 +49,15 @@
     gap: 0 40px;
 }
 .header-bottom__icons-link {}
-.header-bottom__icon-love {
-    width: 30px;
-    height: 30px;
-}
-.header-bottom__icon-user {
-    width: 30px;
-    height: 30px;
-}
+.header-bottom__icon-love, 
+.header-bottom__icon-user,  
 .header-bottom__icon-bag {
     width: 30px;
     height: 30px;
+    transition: all .5s ease;
+}
+.header-bottom__icon-love:hover, 
+.header-bottom__icon-user:hover,  
+.header-bottom__icon-bag:hover {
+   transform: scale(1.3);
 }
