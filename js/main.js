@@ -7,3 +7,13 @@ const swiper = new Swiper('.swiper', {
       clickable: true,
     },
 });
+
+const burger = document.querySelector(".header-bottom__menu-burger")
+const burgerMenu = document.querySelector('.header__burgrer-menu')
+
+burger.addEventListener("click", openBurger)
+
+function openBurger(){
+  burgerMenu.classList.toggle('open-burger')
+  burger.classList.toggle('active')
+}
