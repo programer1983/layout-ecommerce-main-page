@@ -96,3 +96,29 @@
 .header-bottom__icon-bag:hover {
    transform: scale(1.3);
 }
+
+@media (max-width: 620px){
+    .header-bottom {
+        justify-content: center;
+    }
+    .header-bottom__menu {
+        gap: 0 20px;
+    }
+    .header-bottom__icons {
+        gap: 0 20px;
+    }
+}
+@media (max-width: 530px){
+    .header-bottom {
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 440px){
+    .header-bottom {
+        padding-top: 30px;
+    }
+    .header-bottom__menu {
+        gap: 0 200px;
+    }
+}
