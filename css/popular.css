@@ -35,3 +35,14 @@
 .popular__item-price {
     font-size: 18px;
 }
+
+@media (max-width: 1430px){
+    .popular {
+        margin-top: 20px;
+    }
+    .popular__items {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 50px;
+    }
+}

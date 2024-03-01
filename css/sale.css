@@ -135,3 +135,13 @@
 .sale__item-button:hover{
     background-color: rgb(174, 164, 164);
 }
+
+@media (max-width: 1330px){
+    .sale {
+        margin-top: 20px;
+    }
+    .sale__items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
