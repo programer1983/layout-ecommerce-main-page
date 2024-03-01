@@ -42,3 +42,24 @@
 .post__form-button:hover {
     background-color: rgb(84, 81, 81);
 }
+
+@media (max-width: 990px){
+    .post__inner {
+        column-gap: 100px;
+    }
+}
+@media (max-width: 885px){
+    .post__inner {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+}
+@media (max-width: 580px){
+    .post {
+        margin-top: 30px;
+    }
+    .post__form {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

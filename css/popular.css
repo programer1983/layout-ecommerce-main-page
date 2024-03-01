@@ -39,6 +39,7 @@
 @media (max-width: 1430px){
     .popular {
         margin-top: 20px;
+        margin-bottom: 50px;
     }
     .popular__items {
         flex-wrap: wrap;
