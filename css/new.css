@@ -111,3 +111,15 @@
 .new__item-button:hover{
     background-color: rgb(174, 164, 164);
 }
+
+@media (max-width: 1300px){
+    .new__items {
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+}
+@media (max-width: 800px){
+    .new {
+        margin-top: 40px;
+    }
+}
