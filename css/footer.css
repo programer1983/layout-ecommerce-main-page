@@ -116,3 +116,73 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+@media (max-width: 1320px){
+    .footer__inner {
+        position: relative;
+    }
+    .foter__social{
+        position: absolute;
+        bottom: -150px;
+        right: -70px;
+    }
+    .footer__payment{
+        position: absolute;
+        bottom: -100px;
+    }
+    .foter__shop-list, .foter__different-list{
+        margin-right: 300px;
+        padding-left: 40px;
+    }
+}
+@media (max-width: 1200px){
+    .foter__shop-list, .foter__different-list{
+        margin-right: auto
+    }
+}
+@media (max-width: 700px){
+    .footer__inner{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 580px){
+    .foter__social{
+        bottom: 150px;
+    }
+    .foter__buyer-list{
+        padding-left: 40px;
+    }
+}
+@media (max-width: 550px){
+    .foter__social{
+        right: -150px;
+    }
+}
+@media (max-width: 370px){
+    .footer {
+        margin-top: 30px;
+        padding-bottom: 100px;
+    }
+    .footer__inner {
+        row-gap: 20px;
+    }
+    .foter__different-list {
+        margin-top: 0px;
+    }
+    .foter__social{
+       bottom: -120px;
+       right: -70px;
+    }
+    .foter__shop-item-link--bold, .foter__buyer-link--bold{
+        margin-bottom: 0;
+    }
+    .footer__payment{
+        bottom: -170px;
+    }
+    .footer__copy{
+       position: relative;
+       bottom: -70px;
+    }
+}
+
+

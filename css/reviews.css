@@ -93,3 +93,8 @@
         column-gap: 100px;
      }
 }
+@media (max-width: 370px){
+    .reviews{
+       padding-bottom: 30px;
+    }
+}
